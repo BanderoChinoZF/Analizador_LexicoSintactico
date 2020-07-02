@@ -1,0 +1,13 @@
+Tablas BEGIN{
+
+NUM a,b,resultado;
+
+
+TAKE( #Ingrese un numero:# +a);
+TAKE(#ingrese el segundo numero#+b)
+resultado=a*i;
+
+SEND(##el resultado es:#+resultado);
+
+
+END}

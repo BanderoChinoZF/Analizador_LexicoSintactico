@@ -1,0 +1,12 @@
+entrega BEGIN{
+TAKE a,b;
+NUM a1,b1;
+DNUM suma;
+SEND(#Ingresa el primer numero#);
+a1=a;
+SEND(#Ingresa el segundo numero#);
+b1=b;
+suma=a1+b1;
+SEND(#La suma es#+suma);
+
+END}

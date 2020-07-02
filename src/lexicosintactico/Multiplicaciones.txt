@@ -1,0 +1,14 @@
+Tablas BEGIN{
+
+NUM resultado,b;
+DNUM a;
+
+TAKE( #Ingrese un numero:# +a);
+
+TAKE( #Ingrese un numero:# +b);
+
+
+resultado=a*b;
+
+SEND(#el resultado es:#+resultadomn);
+END}
